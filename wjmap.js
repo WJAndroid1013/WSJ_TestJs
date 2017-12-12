@@ -1,6 +1,8 @@
 var wjMapUtil = (function($) {
 	var mp = {};
-	console.log("mp初始化")
+	console.log("mp初始化");
+	
+	/*****************************************/
 
 	//添加map
 	//删，改，查
