@@ -36,11 +36,9 @@ var wjMapUtil = (function($) {
 	}
 
 	function del(key) {
-		$.each(mp, function(k, v) {
-			if(k == key) {
-				mp[key] = undefined;
-			}
-		})
+		
+		delete mp[key];
+		
 	}
 
 	function clear() {
